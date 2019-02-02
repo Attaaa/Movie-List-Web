@@ -9,7 +9,6 @@ $.ajax({
     success: function(result){
         if (result.Response === "True") {
             let movie_list = result.Search;
-            console.log(movie_list);
 
             $.each(movie_list, function(i,data){
                 $('#movie-list').append(`
@@ -28,4 +27,9 @@ $.ajax({
         
     }
 });
+
+$('#search-btn-first').click(function(){
+    $('#first-nav').addClass('d-none');
+    $('#second-nav').addClass('search-focus');
+})
 

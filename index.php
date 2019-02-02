@@ -13,8 +13,8 @@
 </head>
 <body>
     
-    <div class="nav shadow">
-        <ul class="nav container-fluid">
+    <div class="nav">
+        <ul class="nav" id="first-nav">
             <li class="nav-item hamburger">
                 <a href="#" class="nav-link text-light d-md-none d-block"><i class="fas fa-bars"></i></a>
             </li>
@@ -31,9 +31,17 @@
                 <a href="#" class="nav-link text-light d-md-block d-none">CATEGORY</a>
             </li>
             <li class="nav-item ml-auto">
-                <a href="#" class="nav-link text-light"><i class="fas fa-search"></i></a>
+                <a href="#" class="nav-link text-light" id="search-btn-first"><i class="fas fa-search"></i></a>
             </li>
         </ul>
+        <div class="search row mx-auto" id="second-nav">
+            <div class="col-10 d-inline-block align-middle f-none">
+                <input type="text" name="search-movie" id="search-movie" placeholder="search movie...">
+            </div>
+            <div class="col-2">
+                <a href="#" class=""><i class="fas fa-search mt-2"></i></a>
+            </div>
+        </div>
     </div>
 
     <div class="main container-fluid p-5">
