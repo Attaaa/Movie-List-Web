@@ -38,7 +38,6 @@
 
     <div class="main container-fluid p-5">
         <div class="row px-sm-5 px-3" id="movie-list">
-            
         </div>
     </div>
 

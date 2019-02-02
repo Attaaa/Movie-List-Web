@@ -13,7 +13,7 @@ $.ajax({
 
             $.each(movie_list, function(i,data){
                 $('#movie-list').append(`
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12 mb-4 p-2">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12 mb-4 p-md-2 p-1">
                         <div class="card">
                             <img src="`+ data.Poster +`" class="card-img-top" alt="Test">
                             <div class="card-body text-center">
