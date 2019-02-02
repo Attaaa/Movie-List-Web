@@ -1,0 +1,62 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.nav{
+    background-color: #8e44ad;
+    padding: 12px;
+    position: relative;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0 4px 4px -2px gray;
+    -moz-box-shadow: 0 4px 4px -2px gray;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.4);
+}
+
+.nav a{
+    font-weight: 500;
+}
+
+.main{
+    background: linear-gradient(to bottom, #904e95 -70%, #e96443 150%);
+    min-height: 100vh;
+    padding-top: 120px !important;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+    filter: contrast(200%) grayscale(50%);
+    height: 260px;
+    object-fit: cover;
+}
+
+/* button */
+.btn-gradient{
+    background-color: #9E4BFF; 
+    border: none;
+    color: white;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,0.8);
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+/*end button */
+
