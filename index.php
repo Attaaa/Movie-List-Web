@@ -35,11 +35,14 @@
             </li>
         </ul>
         <div class="search row mx-auto" id="second-nav">
-            <div class="col-10 d-inline-block align-middle f-none">
+            <div class="col-1 text-right p-0">
+                <a id="btn-close-search"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="col p-0 px-3">
                 <input type="text" name="search-movie" id="search-movie" placeholder="search movie...">
             </div>
-            <div class="col-2">
-                <a href="#" class=""><i class="fas fa-search mt-2"></i></a>
+            <div class="col-1 text-left p-0">
+                <a id="btn-search"><i class="fas fa-search"></i></a>
             </div>
         </div>
     </div>
