@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MovieW</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
     
 </head>
 <body>
@@ -31,7 +31,7 @@
                 <a href="#" class="nav-link text-light d-md-block d-none">CATEGORY</a>
             </li>
             <li class="nav-item ml-auto">
-                <a href="#" class="nav-link text-light" id="search-btn-first"><i class="fas fa-search"></i></a>
+                <a class="nav-link text-light" id="search-btn-first"><i class="fas fa-search"></i></a>
             </li>
         </ul>
         <div class="search row mx-auto" id="second-nav">
@@ -50,6 +50,10 @@
     <div class="main container-fluid p-5">
         <div class="row px-sm-5 px-3" id="movie-list">
         </div>
+    </div>
+
+    <div id="loader-container" class="text-center">
+        <div class="lds-grid"> <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
