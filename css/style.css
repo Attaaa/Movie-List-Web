@@ -77,12 +77,28 @@ ul.nav.search-out{
 /* end navigation bar */
 
 .main{
-    background: linear-gradient(to bottom, #904e95 0%, #e96443 140%);
+    /* background: ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     min-height: 100vh;
     padding-top: 120px !important;
 }
+
+.main:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: linear-gradient(to bottom, #904e95 0%, #e96443 140%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .card{
     border: none;
